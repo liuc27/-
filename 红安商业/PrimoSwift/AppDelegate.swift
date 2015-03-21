@@ -1,20 +1,19 @@
 //
 //  AppDelegate.swift
-//  红安商业
+//  PrimoSwift
 //
-//  Created by liu on 3/21/15.
-//  Copyright (c) 2015 jianAn. All rights reserved.
+//  Created by fabrizio on 03/06/14.
+//  Copyright (c) 2014 Fabrizio Radica. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+                            
+    var window: UIWindow?    
 
-    var window: UIWindow?
-
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

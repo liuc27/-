@@ -13,6 +13,9 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.tabBarController?.tabBar.tintColor = UIColor.blackColor()
+        self.tabBarController?.tabBar.backgroundColor = UIColor.magentaColor()
+
     }
 
     override func didReceiveMemoryWarning() {
